@@ -1,0 +1,219 @@
+/*1) imports*/@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Importe CDN DE BOOTSTRAP ICONS*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+/*2) selector universal: elimina los margenes y rellenos, los reinicio a 0.
+*{
+   margin:0;
+   padding:0
+}
+
+Una vez que tengo seleccionada las etiquetas en el HTML me fijo los espacios que tengo.
+
+
+/*Comentario en css*/
+
+/*Sintaxis de css*/
+
+/*Selector de etiquetas*/
+
+/*Propiedades y valores
+de texto*/
+
+/*Llamo al selector header y configuro los bordes*/
+
+header{
+
+   border:solid blue 2px;
+}
+
+/*Llamo al selector main y configuro los bordes*/
+
+main {
+   border:solid red 2px;
+}
+
+
+
+/*Llamo al selector section uno y configuro los bordes
+
+En el HTML en la etiqueta section agregar la clase y luego llamarla en el CSS
+<Section class ="uno> */
+
+section.uno{
+   height: 100vw; /*Unidad de medida viewport, la medida se adapta a cualquier ventana de 
+   navegador.unicamente usarla en la primera seccion (hero)*/
+   border: solid green 2px;
+   padding: 65px 0;
+   background-image:url(../Imagenesprueba/fondoInclusivo.jpg) ;
+   background-repeat: no-repeat; /*No repite la imagen en la pantalla*/
+   background-attachment: fixed; /*Centra la imagen*/
+   background-position: top; /*La posicion de la imagen*/
+   background-size: contain; /*El tamaño del fondo, contain adapta el ancho en el 
+   section  gracias a los padding*/
+   background-size: cover; /*cubre toda la imagen, viene por defecto*/
+   /*La imagen se adapta gracias a la altura que le de al section*/
+   
+   }
+
+  /*Selector hijos*/
+ /*Al parafo de la seccion 1, le doy un margen de 45 pixeles
+ .uno p{
+   color: red
+   padding:45px; */
+
+
+
+ /* Llamo al selector footer y configuro los bordes*/   
+
+footer{
+   border: solid orange 2px;
+}
+
+
+p{
+    
+    color:white;
+    background-color: brown;
+    font: size 10px;
+    /*uppercase: Mayuscula
+    lowercase: Minuscula*/
+    text-transform:lowercase;
+    /*Text align: center: medio
+    text align: justify: justificado
+    text align start: a la izquierda
+    text align: end: a la derecha*/
+    text-align:left;
+     
+    /*propiedades de text decoration*/
+
+     /*Agregar una linea de color negra arriba*/
+    text-decoration-color: black;
+    /*Linea de puntitos*/
+    text-decoration-style: solid;
+    
+    /*Se ensanchan las lineas*/
+    text-decoration-thickness: 2px;
+
+   
+    text-decoration:none;
+
+    /*Recortar propiedades de text decoration*/
+    /*text-decoration:overline black double 25px;*/
+ 
+    /*Identacion de texto a la izquierda siempre en pixeles*/
+    text-indent: 10px;
+    letter-spacing: 1px;
+    line-height: 15px; /*Separacion entre lineas*/
+    word-spacing: 5px; /*Espacio entre cada palabra*/
+    /*No se puede separar las propiedades en una misma linea
+    porque no tienen nada en comun*/
+/**----------------------------------------------------------/
+    /*Bordes de parrafo*/
+      /*el primer valor es: arriba 
+      el segundo valor es: costado
+      el tercer valor es: abajo
+      el cuarto valor es:del otro costado */
+
+        border-style: solid double dashed dotted;
+        border-color: red blue green yellow;
+        border-width: 10px 25px 35px 5px; /*Ancho del borde (Valores:arriba, costado
+        abajo, del otro costado* si no quiero un valor se le pone un cero*/
+
+        border-radius: 5px; /*Se redondea los bordes*, un solo valor afecta a los cuatro
+        lados.*/
+        }
+
+body{
+   background-color: cadetblue;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    
+}
+
+h1{
+    /*font-family:"Jersey 25 Charted", sans-serif; */
+   
+    text-shadow: 2px 2px 5px blue;
+    /*El primer valor es el corrimiento  en horizontal
+    el segundo valor es el corrimiento en vertical
+    el tercer valor es el difuminador
+    El cuarto es el color de la sombra*/
+    
+     
+ }
+
+    /*La i viene de iconos de fuentes de la pagina de bootstrap*/
+ i{
+   
+    color: burlywood;
+    font-size: 25px;
+ }
+
+    /*Propiedades y valores de las imagenes*/
+
+    /*Las imagenes de fondo se cargan en el CSS tengo que saber la orientacion de la imagen de fondo (Horizontal o vertical)*/
+
+    /*Las imagenes para el section tiene que tener el sentido horizontal IMPORTANTISIMO */
+ img{
+    width: 650px; /*Ancho*/
+    height: 450px; /*Alto*/
+    opacity: 1; /*Tiene valores de 0 a 1*/
+    /*filter: blur(4px); /*Filtro de opacidad (numero en pixeles)
+     * */
+     ;
+ }
+
+ 
+ /*Al titulo de la seccion 1, le doy un margen de 45 pixeles*/
+ .uno h1 /*{
+   /* pading: 45px;
+    } */
+ 
+
+ p{ 
+
+   /*Combinacion de colores
+   rgb o en hexadecimal HSL Colores
+   */
+   color:rgb(255, 165, 169)
+
+   /*El color alpha tiene que ver con la transparencia
+   y ese alpha acepta valores entre 0 y 1*/
+   color rgba(255, 99, 71, 0.1);
+   /*Buscar el programa just color piker*/
+
+   /* Rellenos: es lo que se encuentra entre el borde y el contenido*/
+   padding-top: 15px;
+   padding-left: 25px;
+   padding-bottom: 20px;
+   padding-right: 2px;
+
+   /*Shortdan: en una sola linea pongo todos los valores*/
+   padding:15px 25px 20px 2px;
+
+   /*Arriba, abajo 80px
+    izquierda derecha: 160px
+    los mismos valores*/
+   padding: 80px 160px;
+
+   padding: 2px; /*uN SOLO VALOR: LOS 4 LADOS*/
+
+   /*Margenes*/
+   margin: 5px;
+   
+ }
+ 
+
+
+ 
+
+
+
+
+ 

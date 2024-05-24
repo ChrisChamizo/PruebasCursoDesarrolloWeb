@@ -1,0 +1,107 @@
+/*para procesar informacion de aca arriba puedo modificar todos los valores 
+de la pagina*/
+
+/*Se usa para imagenes, tipografia y tamaño de letras*/
+:root{
+    --colorPrimario:#3498db;
+    --colorDeFondo: #f0f0f0;
+    --colorDelBoton: #2ecc71;
+    --ColorDelTextoDelBoton:#ffffff;
+
+}
+a:link{ /*Con el : le estamos dando estados a la etiqueta a*/
+    color:brown;
+
+}
+a:visited{ /*Le podemos cambiar el color al link si ya fue visitado*/
+    color:green; 
+}
+
+a:hover /*Pasar el mouse sobre el link*/{
+    color:pink;
+    font-size: 25px;
+}
+
+a:active /*Cuando hacemos un click cambia de color*/{
+    color:black;
+}
+section{ /*Transicion de un color hacia otro. el primer valor es la orientacion*/
+    background:linear-gradient(to right, rgb(131,231,244),rgb(42,94,4));
+    background: radial-gradient(orange skyblue green);
+}
+
+/*Estilar los input en formularios*/
+/*se le aplica las propiedades y valores del input unicamente a los que son de tipo texto*/
+input[type=text]{
+    padding: 10px 20px;
+    border: 2px solid green;
+/*Todos los input que estemos utilizando no tienen que terminar en punta*/
+    border-radius: 5px;
+}
+
+
+/*Estilar botones de los formularios en css*/
+button{
+    border: none; /*los botones no tienen que tener borde*/
+    padding: 15px 25px;
+    font-size: medium;
+    border-radius: 15px;
+    background-color: #2ecc71;
+    color:#ffff
+    
+    
+}
+
+button:hover{
+    background-color: red; /*Cambia de color el fondo del boton cuando le pasas el
+    mouse por arriba. No tiene sentido ponerle color de fondo a un boton*/
+
+    cursor:pointer /*Cuando paso el mouse por el boton aparece una manito (Siempre hay
+    que cambiarlo, nunca tiene que aparecer la flecha)*/
+   
+}
+ /*para procesar informacion. De aca arriba puedo modificar todos los valores 
+de la pagina*/
+
+/*Transformaciones en 2d Cambia la forma, tamaño y posicion de los elementos HTML de manera
+bidimensional (eje x e y)*/
+
+/*Se puede usar en h1 y section*/
+h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    transform: translate(50px,100px);  /*Mueve un elemento del eje x e y */
+    transform: rotate(45deg);          /*gira un elemento pero en grados deg*/
+    transform: scale(2);               /*Cambia el tamaño de un elemento. Escala*/
+    transform: skew(30 deg,10deg);    /*Inclino un elemento en un plano 2d. Se coloca en grados*/
+                                      /*Skew() toma valores en x e y juntos*/
+
+}   
+
+
+
+/*Al final del archivo del css se agregan keyFrames: fotogramas*/
+
+@keyframes Ejemplo { /*Ejemplo es el nombre del fotograma*/ /*0,50,100 son los valores
+    en los que se va a transladar un boton,etiquetas contenedoras,imagenes (lo que quiera)*/
+    
+    0%{
+        transform: translateX(0)
+    }
+    50%{
+        transform:translateX(100) ;
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+/*Vincular el keyframe con la etiqueta boton por ejemplo*/
+
+/*en el button usar la propiedad animation*/
+
+    /*Button {
+        animation:ejemplo 3s infinite;
+    }
+    */
+    
