@@ -361,8 +361,69 @@ section.uno {
             th{
                 background-color: brown;
             }
-        
+            /*Finaliza la decima seccion*/
+            
+            /*Estilamos los input del form*/
+            
+            input[type=text]{
+                padding: 5px 5px;
+                border:2px solid green;
+                /*Todos los input que estemos utilizando 
+                no tienen que terminar en punta*/
+                border-radius: 5px;
+            }
+            /*Estilamos los input de tipo numero del form*/
+            input[type=number]{
+                padding: 5px 5px;
+                border:2px solid green;
+                /*Todos los input que estemos utilizando 
+                no tienen que terminar en punta*/
+                border-radius: 5px;
+            }
+            /*Estilamos los input de tipo email del form*/
+            input[type=email]{
+                padding: 5px 5px;
+                border:2px solid green;
+                /*Todos los input que estemos utilizando 
+                no tienen que terminar en punta*/
+                border-radius: 5px;
+            }
+                /*Estilamos el text area del form*/
+                textarea{
+                    width:150px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 16px;
+                    color:#3498db;
+                    background: color #f8f8f8;
+                    padding: 15px;
+                    margin: 15px 0;
+                }
+                /*Se estila el focus*/
+                textarea:focus{
+                    border-color: #4a90e2;
+                    box-shadow: 0 0 5px rgba(74,144,226,0.5);
+                    }
+                /*Se estila el placeholder*/
+                textarea::placeholder{
+                    color:#aaa
+                }
                 
+
+            /*Estilar botones de los formularios en css*/
+            
+            button{
+            border: none; /*los botones no tienen que tener borde*/
+            padding: 15px 25px;
+            font-size: medium;
+            border-radius: 15px;
+            background-color: #2ecc71;
+            color:#ffff
+            }
+            
+            button:hover{
+                cursor: pointer;
+            }
+            
             
 
            
