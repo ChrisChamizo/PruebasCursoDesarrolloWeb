@@ -1,13 +1,4 @@
-  /*para procesar informacion. De aca arriba puedo modificar todos los valores 
-de la pagina*/
 
-/*Se usa para colores, tipografia y tamaño de letras*/
-:root{
-    --colorPrimario:#3498db;
-    --colorDeFondo: #f0f0f044;
-    --colorDelBoton: #2ecc71
-    --ColorDelTextoDelBoton:#ffffff;
-}
 /*1) imports*/@import url("https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /*Importe CDN DE BOOTSTRAP ICONS*/
@@ -21,19 +12,17 @@ de la pagina*/
 /*Empiezo a llamar a los selectores*/
 /*Llamo al selector header y configuro los bordes*/
 body{
-    background-color: var(--colorDeFondo)
+    background-color: grey;
 }
-header{
-    border: solid white 2px;
-    
-}
+
 /*le doy estilo al header completo*/
 
 /*el titulo del header*/
 header h1{
     
     padding: 20px;
-    font-family: "Nanum Gothic", sans-serif;
+    font-family: font-family "Rubik", sans-serif;
+    font-size: 20px;
     text-shadow: 2px 2px 5px blue;
     margin-left: 10px;
 }
@@ -42,56 +31,42 @@ header button{
     background-color: #4CAF50;
     color:white;
     border-radius: 5px;
-    margin:1px;
+    margin-left:7px;
 }
 
 header i{
 /*La i viene de iconos de fuentes de la pagina de bootstrap*/
-    color:red;
+    color:white;
     font-size: 15px;
-    
-    
     }
 
-/*Termina el header*/
-
-/*Llamo al selector main y configuro los bordes*/
-
-main {
-    border:solid red 2px;
-}
-
-
- /*Llamo al selector section 1 y configuro los bordes*/
- 
-section.uno {
-    height: 100vw;
-    border: solid black 2px;
-    padding-top: 85px;
+.hero {
+    height: 100vh;
+    padding-top: 30px;
+    margin-left: 15px;
+  
     }
 
      /*Botones de la primera seccion*/
-.uno button{
+.hero button{
      background-color: #4CAF50;
      color:white;
      padding: 10px;
-     margin: 5px;
+     margin-left: 5px;
     border-radius: 5px;
-
-    
-   
-   
-   
+    margin-bottom: 10px;
 }
      /*Imagen de la primera seccion*/
 
-    .uno img{
-    width: 800px;
-    height: 500px;
+    .hero img{
+    width: 900px;
+    height: 421px;
+    margin-top:80px;
+    
     }
 
-    a:link{ /*Con el : le estamos dando estados a la etiqueta a*/
-        color:brown;
+    .hero a:link{ /*Con el : le estamos dando estados a la etiqueta a*/
+        color:blue;
     }
      /*Termina la seccion uno*/
     section.dos{
