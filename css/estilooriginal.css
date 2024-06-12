@@ -65,9 +65,7 @@ header i{
     
     }
 
-    .hero a:link{ /*Con el : le estamos dando estados a la etiqueta a*/
-        color:blue;
-    }
+    
      /*Termina la seccion uno*/
     
      /*Comienza la seccion dos*/
@@ -297,6 +295,9 @@ header i{
             text-decoration: none;
             padding-top:  15px;
             }
+            p{
+                margin-left: 10px;
+            }
 
             /*Termina la novena seccion*/
              h1{
@@ -305,13 +306,37 @@ header i{
                 text-shadow: 2px 2px 5px blue;
                 margin-left: 10px;
            }
-           /*Comienza la decima seccion*/
+           .formulario{ /*clase padre*/
+            width: 850px;
+            margin:20px;
+            padding-top: 15px;
+            margin-left: 15px;
+            border-radius: 5px;
+           color:white;
+           
+            
+        }
+        .div .formulario-nombre-apellido{
+            margin-bottom: 15px;
+            padding: 10px 20px; 
+            font-size: 20px;
+            color:#fff;
+            border-radius: 5px;
+        }
+        .edad-mail.div{
+            display: flex;
+        }
+        
+        .tel-discapacidad .div{
+            display: flex;
+            flex-direction:column;
+        }
            
             /*Estilamos los input del form*/
             
             input[type=text]{
                 padding: 5px 5px;
-                border:2px solid green;
+                border:2px solid black;
                 /*Todos los input que estemos utilizando 
                 no tienen que terminar en punta*/
                 border-radius: 5px;
@@ -319,7 +344,7 @@ header i{
             /*Estilamos los input de tipo numero del form*/
             input[type=number]{
                 padding: 5px 5px;
-                border:2px solid green;
+                border:2px solid black;
                 /*Todos los input que estemos utilizando 
                 no tienen que terminar en punta*/
                 border-radius: 5px;
@@ -327,24 +352,25 @@ header i{
             /*Estilamos los input de tipo email del form*/
             input[type=email]{
                 padding: 5px 5px;
-                border:2px solid green;
+                border:2px solid black;
                 /*Todos los input que estemos utilizando 
                 no tienen que terminar en punta*/
                 border-radius: 5px;
             }
                 /*Estilamos el text area del form*/
                 textarea{
-                    width:150px;
+                    width:250px;
                     font-family: Arial, Helvetica, sans-serif;
                     font-size: 16px;
                     color:#3498db;
                     background: color #f8f8f8;
                     padding: 15px;
+                    padding-top: -5px;
                     margin: 15px 0;
                 }
                 /*Se estila el focus*/
                 textarea:focus{
-                    border-color: #4a90e2;
+                    border-color:cornflowerblue;
                     box-shadow: 0 0 5px rgba(74,144,226,0.5);
                     }
                 /*Se estila el placeholder*/
@@ -356,14 +382,36 @@ header i{
             
             button{
             border: none; /*los botones no tienen que tener borde*/
-            padding: 15px 25px;
-            font-size: medium;
-            border-radius: 15px;
+            padding: 10px;
+
+            font-size: 16px;
+            border-radius: 5px;
             background-color: #2ecc71;
-            color:#ffff
+            color:#ffff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             }
             
             button:hover{
                 cursor: pointer;
             }
-            
+            button .arrow {
+                margin-left: 10px;
+              
+            }
+            /*Se estilan los videos*/
+            .videos h1{
+                padding: 20px;
+                font-family: font-family "Rubik", sans-serif;
+                font-size: 40px;
+                text-shadow: 2px 2px 5px blue;
+                margin-left: 10px;
+            }
+            .videos a:link{
+                color:blue;
+                text-decoration: none;
+                font-size: 30px;
+                display: flex;
+
+            }
