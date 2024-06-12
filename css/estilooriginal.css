@@ -22,7 +22,7 @@ header h1{
     
     padding: 20px;
     font-family: font-family "Rubik", sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     text-shadow: 2px 2px 5px blue;
     margin-left: 10px;
 }
@@ -69,9 +69,7 @@ header i{
         color:blue;
     }
      /*Termina la seccion uno*/
-    section.dos{
-        border:solid salmon 2px;
-     }
+    
      /*Comienza la seccion dos*/
     .dos h2{
         
@@ -86,16 +84,11 @@ header i{
         margin-left: 10px;
         color:black;
         background-color: #79b7e2;
-        font-size: medium;
+        font-size: 20px;
         text-align: left;
         text-indent: 15px;
         line-height: 20px;
-        /*Bordes de parrafo*/
-        border-style: solid;
-        border-color:orange red;
-        border-width:10px 15px 0 0;
-        text-decoration: none;
-        
+      
        }
        .dos img{
         width: 950px;
@@ -112,10 +105,12 @@ header i{
         margin-top: 15px;
         color:black;
         background-color: #79b7e2;
-        font-size: medium;
+        font-size:medium;
         text-align: left;
         text-indent: 15px;
         line-height: 20px;
+        margin-left: 10px;
+        
         /*Bordes de parrafo*/
         border-style: solid;
         border-color:orange red;
@@ -134,6 +129,7 @@ header i{
         text-align: left;
         text-indent: 15px;
         line-height: 20px;
+        margin-left: 10px;
         /*Bordes de parrafo*/
         border-style: solid;
         border-color:orange red;
@@ -165,6 +161,7 @@ header i{
         text-align: left;
         text-indent: 15px;
         line-height: 20px;
+        margin-left: 10px;
         /*Bordes de parrafo*/
         border-style: solid;
         border-color:orange red;
@@ -190,13 +187,15 @@ header i{
             }
 
         .seis p{
-        margin-top: 15px;
+       
         color:black;
         background-color: #79b7e2;
         font-size: medium;
         text-align: left;
         text-indent: 15px;
         line-height: 20px;
+         margin-top: 15px;
+         margin-left: 10px;
         /*Bordes de parrafo*/
         border-style: solid;
         border-color:orange red;
@@ -229,6 +228,7 @@ header i{
         text-align: left;
         text-indent: 15px;
         line-height: 20px;
+        margin-left: 10px;
         /*Bordes de parrafo*/
         border-style: solid;
         border-color:orange red;
@@ -261,13 +261,13 @@ header i{
             text-align: left;
             text-indent: 15px;
             line-height: 20px;
+            margin-left: 10px;
             /*Bordes de parrafo*/
             border-style: solid;
             border-color:orange red;
             border-width:10px 15px 0 0;
             text-decoration: none;
             padding-left: 15px;
-        
         }
 
     .ocho img{
@@ -281,14 +281,15 @@ header i{
 
         /*Comienza la novena seccion*/
     .nueve p{
-            margin-top: 25px;
-            margin-left: 10px;
+           
             color:black;
             background-color: #79b7e2;
             font-size: medium;
             text-align: left;
             text-indent: 15px;
             line-height: 20px;
+            margin-top: 25px;
+            margin-left: 10px;
             /*Bordes de parrafo*/
             border-style: solid;
             border-color:orange red;
@@ -305,51 +306,7 @@ header i{
                 margin-left: 10px;
            }
            /*Comienza la decima seccion*/
-          
            
-           diez table{
-            
-            width: 100% /*ancho de la tabla segun la resolucion del monitor*/;
-            border-collapse: collapse; /*Colapsar los bordes, unir*/
-            
-            }
-            /*Le doy estilo a toda la tabla*/
-        
-            /*Selector multiple*/
-
-            /*Se le aplica un borde*/
-            diez table,th,td,tr{
-                border:solid red 2px;
-                
-            }
-            
-            th{
-                height: 70px; /*Tamaño a la primera fila de la tabla*/
-            }
-             
-                
-            td{ /*los valores que tiene la fila de
-                la tabla*/
-                text-align: center;
-                height: 60px;
-                vertical-align: bottom; /*Alineacion vertical*/
-            }
-            
-            td,th{
-                border:2px solid red;
-                padding: 8px;
-                text-align: left;
-                border-bottom: 2px solid grey; /*aplica el borde solo abajo en la tabla*/
-
-            }
-            th{
-                background-color: brown;
-            }
-            /*Finaliza la decima seccion*/
-
-            
-           
-            
             /*Estilamos los input del form*/
             
             input[type=text]{
@@ -394,7 +351,6 @@ header i{
                 textarea::placeholder{
                     color:#aaa
                 }
-                
 
             /*Estilar botones de los formularios en css*/
             
@@ -411,6 +367,3 @@ header i{
                 cursor: pointer;
             }
             
-            
-
-           

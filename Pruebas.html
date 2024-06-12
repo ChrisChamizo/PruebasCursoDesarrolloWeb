@@ -12,8 +12,6 @@
     <!--Vinculacion de html con los iconos de bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
  
-
-
 </head> 
 <body>
     <header>
@@ -37,19 +35,16 @@
     <section class="hero">
         <div>
            
-            <button>Herramientas para la educacion inclusiva online</button>
+            <button>Herramientas para la educación inclusiva online</button>
             <Button>Articulos sobre el aprendisaje online</Button>
             <button>Foros de consulta</button>
             <Button>Contacto</Button>
              <img src="Imagenesprueba/fondohero.jpg">
              <a href="#"><ir a la pagina></a>
-             
-             
+          
         </div>
       <!--Termina la primera seccion-->      
     </section>
-
-
 
     <!--Comienza la segunda seccion-->
     <section class="dos">
@@ -96,8 +91,6 @@
         </section>
         <!--Finaliza la quinta seccion-->
 
-
-
         <!--Comienza la sexta seccion-->
         <section class="seis">
             <div>
@@ -110,9 +103,6 @@
         </section>
         <!--Finaliza la sexta seccion-->
 
-
-
-
         <!--Comienza la septima seccion-->
         <section class="siete">
             <div>
@@ -124,7 +114,6 @@
             </div>
         </section>
         <!--Finaliza la septima seccion-->
-
 
         <!--Comienza la octava seccion-->
         <section class="ocho">
@@ -146,71 +135,35 @@
                 <p><b>Conclusion:</b> El avance tecnologico permite a las personas con discapacidades diferentes, poder aprender a su ritmo sin importar el tiempo que le lleve.</p>
 
                 <p><b>María del Carmen Azuara de Curi:</b> "No es la discapacidad lo que hace difícil la vida, sino los pensamientos y acciones de los demás."</p>
+                
             </div>
         </section>
         
         <!--Termina la novena seccion-->
 
-        <!--Empieza la decima seccion incluyo tablas -->
-
-        <section class="diez">
-            <!--Tablas-->
-        <table>
-            <!--tr filas de la tabla-->
-        <!--th table header, se ponen en negrita los titulos y los centra-->
-        <tr>
-            <th>Pais</th>
-            <th>Discapacidad</th>
-            <th> Porcentaje de personas afectadas</th>
-        </tr>
-        <!--Segunda fila de la tabla-->
-        <tr>
-            <td>Argentina</td>
-            <td>Motora</td>
-            <td>30 personas</td>
-        </tr>
-        <tr>
-            <td>Brasil</td>
-            <td>Visual</td>
-            <td>40 personas</td>
-        </tr> 
-        </table>
-            
-        </section>
-        <!--Finaliza la decima seccion-->
-        
-
         <!--Formularios-->
-        <form action="eduacion.php"></form>
         <p>Si nesesitas ayuda, dejame tus datos y me pondré en contacto a la brevedad.</p>
-        <label>Ingrese su nombre</label> 
-        <input type="text" placeholder="Ingrese su nombre"maxlength="10">
+        <div class="formulario">
+            <form>
+                <div class="formulario-nombre-apellido">
+                    <input type="text" placeholder="Ingrese su nombre"maxlength="10">
+                    <input type="text" placeholder="Ingrese su apellido" maxlength="15">
+                </div>
 
-        <label>ngrese su apellido</label> 
-        <input type="text" placeholder="Ingrese su apellido" maxlength="15">
+                <div class="edad-mail">
+                     <input type="number" placeholder="Ingrese la edad" maxlength="2">
+                     <input type="email" placeholder="Ingrese su email" maxlength="30">
 
-        <label>Ingrese la edad</label>
-        <input type="number" placeholder="Ingrese la edad" maxlength="2">
-        <label>Ingrese su email de contacto</label>
-
-        <input type="email" placeholder="Ingrese su email">
-
-        <label>Ingrese num de telefono</label>
-        <input type="text" placeholder="Ingrese su numero de telefono" maxlength="15">
-
-        <label> Ingrese su discapacidad</label>
-        <input type="text" placeholder="Ingrese su discapacidad" maxlength="20">
-        <label>Adjunte su CUD</label> 
-        <input type="file">
-
-        <label>Escribinos tu consulta</label>
-        
-        <textarea></textarea>
-
-        <button>Enviar formulario</button>
-        
-        
-
+                     <div class="tel-discapacidad">
+                        <input type="text" placeholder="Ingrese num tel" maxlength="15">
+                        <input type="text" placeholder="Ingrese su discapacidad" maxlength="20">
+                        <input type="file" placeholder="Ingrese su cud">
+                        <textarea></textarea>
+                        <button type="submit">Enviar formulario <span class="arrow"> ➤</span></button> 
+                    </div>
+                     </div>
+            </form>
+        </div>
 </main>
 <footer>
     <!--Para landingpage-->
@@ -229,22 +182,20 @@
         redes sociales
         y al costado un mapa.
     -->
+
 </footer>
     <!--Experiencias sobre la educacion inclusiva-->
-    <h1><p>Videos sobre la educacion inclusiva</p><h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOLmAXKvSS0?si=Z9A4n7PfhOjY8YTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/teoyZci1BSs?si=KOeuraUTsY_v7LDq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    
-    <a href="https://www.unesco.org/es/education/inclusion" target="_blank"> Visitar pagina</a>
-    
-    
-        
-        
-        
 
 
+    <div class="videos">
+        <h1>Videos sobre la educacion inclusiva<h1>
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/ZOLmAXKvSS0?si=Z9A4n7PfhOjY8YTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     
+
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/teoyZci1BSs?si=KOeuraUTsY_v7LDq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <a href="https://www.unesco.org/es/education/inclusion" target="_blank"> Pagina oficial</a>
+    </div>
+    
 </body>
 </html>
