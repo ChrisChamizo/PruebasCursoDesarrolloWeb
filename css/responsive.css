@@ -1,0 +1,79 @@
+@media (max-width: 1440px) {
+    .hero {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 35px;
+    }
+    .hero {
+        height: 70vh;
+    }
+    .hero img {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 30px;
+    }
+    header button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .hero {
+        height: 60vh;
+    }
+    .hero img {
+        max-width: 700px;
+    }
+    .dos h2, .cuatro h2, .cinco h2, .seis h2, .siete h2, .ocho h2 {
+        font-size: 25px;
+    }
+    .formulario {
+        padding: 15px;
+    }
+    .formulario input, .formulario textarea, .formulario button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 25px;
+    }
+    header button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    .hero {
+        height: 50vh;
+    }
+    .hero img {
+        max-width: 600px;
+    }
+    .dos h2, .cuatro h2, .cinco h2, .seis h2, .siete h2, .ocho h2 {
+        font-size: 20px;
+    }
+    .dos p, .tres p, .cuatro p, .cinco p, .seis p, .siete p, .ocho p, .nueve p {
+        font-size: 16px;
+    }
+    .formulario {
+        padding: 10px;
+    }
+    .formulario input, .formulario textarea, .formulario button {
+        padding: 6px;
+        font-size: 12px;
+    }
+    .videos h2 {
+        font-size: 30px;
+    }
+    .videos iframe {
+        width: 100%;
+        height: auto;
+    }
+}
