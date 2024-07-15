@@ -34,6 +34,43 @@ header i {
     font-size: 15px;
 }
 
+
+/*Estilos para el menu hamburguesa*/
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu.open{
+    display: flex;
+}
+
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#000
+}
+
 /* Hero section */
 .hero {
     height: 100vh;
@@ -50,7 +87,7 @@ header i {
 .hero img {
     width: 100%;
     max-width: 900px;
-    height: auto;
+    height:auto;
     margin-top: 20px;
 }
 

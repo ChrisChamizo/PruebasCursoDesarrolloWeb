@@ -30,27 +30,8 @@ section{ /*Transicion de un color hacia otro. el primer valor es la orientacion*
     background: radial-gradient(orange skyblue green);
 }
 
-/*Estilar los input en formularios*/
-/*se le aplica las propiedades y valores del input unicamente a los que son de tipo texto*/
-input[type=text]{
-    padding: 10px 20px;
-    border: 2px solid green;
-/*Todos los input que estemos utilizando no tienen que terminar en punta*/
-    border-radius: 5px;
-}
 
 
-/*Estilar botones de los formularios en css*/
-button{
-    border: none; /*los botones no tienen que tener borde*/
-    padding: 15px 25px;
-    font-size: medium;
-    border-radius: 15px;
-    background-color: #2ecc71;
-    color:#ffff
-    
-    
-}
 
 button:hover{
     background-color: red; /*Cambia de color el fondo del boton cuando le pasas el
