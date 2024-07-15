@@ -25,6 +25,7 @@ Finalmente, se incluye una sección de conclusión que destaca la importancia de
 
 Este proyecto busca no solo informar, sino también ofrecer un espacio de apoyo y recursos prácticos para fomentar una educación inclusiva para todos.
 
+<b> Tecnologias utilizadas: </b> La pagina web fue desarrollada utilizando HTML, CSS y JavaScript garantizando una completa adaptabilidad y responsividad en diversos dispositivos, incluyendo móviles, tabletas y escritorios.
 
 
 
